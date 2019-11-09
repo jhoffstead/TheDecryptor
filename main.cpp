@@ -4,8 +4,13 @@
  */
 
  #include <iostream>
+
+ void menu();
+
 int main(){
-    std::cout << "Hello world";
+    menu();
     return 0;
 }
-
+void menu(){
+    "Welcome to The Decrypter 1.0";
+}
