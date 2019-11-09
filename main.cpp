@@ -4,7 +4,7 @@
  */
 
  #include <iostream>
-
+using namespace std;
  void menu();
 
 int main(){
@@ -12,5 +12,5 @@ int main(){
     return 0;
 }
 void menu(){
-    "Welcome to The Decrypter 1.0";
+    cout << "Welcome to The Decrypter 1.0";
 }
