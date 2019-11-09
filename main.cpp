@@ -5,10 +5,10 @@
 
  #include <iostream>
 using namespace std;
- void menu();
+ void menu(int n);
 
 int main(){
-    menu();
+    menu(1);
     return 0;
 }
 void menu(){
